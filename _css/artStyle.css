@@ -1,0 +1,51 @@
+@font-face {
+    /*Font source: Creative Market: "Awesome Darling" by Decavantona*/
+    font-family: AwesomeDarling;
+    src: url(AwesomeDarling/AwesomeDarling.otf);
+}
+
+body {
+  /*font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;*/
+  font-family: AwesomeDarling;
+}
+
+.art {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  /*Center the title horizontally, vertically*/
+       top: 50%;
+       left: 50%;
+       margin-right: -50%;
+       transform: translate(-50%,-50%);
+}
+
+.container {
+  max-width: 400px;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.container div {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+}
+
+.next {
+  right: 5px;
+}
+
+.prev {
+  left: 5px;
+}

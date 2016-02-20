@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About | Emmy Zhang</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="_images/kirby_icon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel='stylesheet' href='bower_components/animate.css/animate.min.css'>
+    <script type="text/javascript" src='bower_components/letteringjs/jquery.lettering.js'></script>
+    <script type="text/javascript" src='bower_components/textillate/jquery.textillate.js'></script>
+    <link rel="stylesheet" href="_css/style.css">
+    <script type="text/javascript" src="_js/script.js"></script>
+  </head>
+
+<body class="all">
+  <div class="aboutDescription">
+    <h2>About M-E</h2>
+    <h3>Interests</h3>
+      <span class="tlt">
+						<ul class="texts">
+							<li>web development</li>
+							<li>graphic design</li>
+              <li>animation</li>
+						</ul>
+			</span>
+
+      <h3>Favorite Movies</h3>
+        <span class="tlt">
+  						<ul class="texts">
+  							<li>movies by Studio Ghibili</li>
+  							<li>The Incredibles</li>
+                <li>The Untouchables</li>
+  						</ul>
+  			</span>
+
+        <h3>Favorite Books</h3>
+          <span class="tlt">
+                <ul class="texts">
+                  <li>Hero and the Crown</li>
+                  <li>Holes</li>
+                  <li>inGenius</li>
+                </ul>
+          </span>
+  </div>
+
+  <footer>
+    <a href="home.html"><p>Home</p></a>
+    <a href="https://www.facebook.com/emmy.zhang.39" target="_blank"><p>Facebook</p></a>
+  </footer>
+
+
+  <script>
+
+
+  $(function () {
+      $('.tlt').textillate({
+  	    minDisplayTime: 2000,
+  	    in: { effect: 'fadeInDown', sync: true },
+  	    out :{  delay: 3, effect: 'fadeOutDown', sync: true},
+  	    loop: true
+  	});
+  })
+  </script>
+</body>
+</html>

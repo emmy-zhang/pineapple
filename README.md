@@ -1,3 +1,1 @@
-# pineapple
-personal website
-blah blah blah
+# emmy2

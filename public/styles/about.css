@@ -1,0 +1,18 @@
+.about-content{
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+.about-p, .about-imgs {
+  margin: 0 100px 50px 100px;
+  min-height: 100%;
+}
+.about-imgs img{
+  width: 175px;
+  border-radius: 5px;
+}
